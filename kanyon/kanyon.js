@@ -527,7 +527,7 @@ function changeStyle(){
     textM.style.fontStyle="italic";
     textM.style.color="#ffe100"
     motto.style.color="#fff"
-    
+    motto.innerHTML =  '20% ÇEVRİMSİZ YATIRIM BONUSU'
     logo.src="images/wxLogo.png"
     logo.style.marginBottom=-15+"px"
     document.body.style.fontFamily='Montserrat'
