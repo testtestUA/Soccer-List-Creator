@@ -111,7 +111,7 @@ function apiFactory(name) {
                     
                         //UEFA LEAGUE
                         
-                        if (option.innerText === "UEFA Şampiyonlar Ligi" || option.innerText == "Avrupa Şampiyonası" || league.lName == "UEFA Uluslar Ligi") {
+                        if (league.lName === "Avrupa Şampiyonası" || league.lName === "UEFA Uluslar Ligi") {
                            
                             console.log(league);
                             chooseGame.innerHTML = league.sns[0].fs[0].hcN + " " + league.sns[0].fs[0].acN;
@@ -152,7 +152,7 @@ function apiFactory(name) {
                                 create();
                             })
                         } else {
-                            if(league.lName != "UEFA Uluslar Ligi"){
+                            if(league.lName != "UEFA Uluslar Ligi" || league.lName === "Dünya Kupası"){
                                 chooseGame.innerHTML = league.fs[0].hcN + " " + league.fs[0].acN;
                                 if (chooseGame.innerHTML.includes("undefined")) {
                                     chooseGame.style.display = "none";
