@@ -239,7 +239,7 @@ function apiFactory(name) {
                 //left logo -> inside leftLogoHolder
                 const leftLogo = document.createElement("img");
                 leftLogo.setAttribute("class", "left-logo");
-                leftLogo.src = "https://ls.betradar.com/ls/crest/big/" + leftLogoNum + ".png";
+                leftLogo.src = "https://assets.b365api.com/images/team/b/" + leftLogoNum + ".png";
                 leftLogoHolder.appendChild(leftLogo);
                 //Game info -> inside gameHolder
                 const gameInfo = document.createElement("div");
@@ -312,7 +312,8 @@ function apiFactory(name) {
                 //odd two -> inside twoOdd
                 const oddTwo = document.createElement("div");
                 oddTwo.setAttribute("class", "odd-mid left");
-                oddTwo.setAttribute("contenteditable", "true");
+                oddTwo.setAttribute("c
+                                    ontenteditable", "true");
                 oddTwo.innerText = guestOdd;
                 twoOdd.appendChild(oddTwo);
                 //Game date -> inside gameInfo
@@ -332,7 +333,7 @@ function apiFactory(name) {
                 //left logo -> inside leftLogoHolder
                 const rightLogo = document.createElement("img");
                 rightLogo.setAttribute("class", "left-logo");
-                rightLogo.src = "https://ls.betradar.com/ls/crest/big/" + rightLogoNum + ".png";
+                rightLogo.src = "https://assets.b365api.com/images/team/b/" + rightLogoNum + ".png";
                 rightLogoHolder.appendChild(rightLogo);
                 //Check whether more than 10!
                 if (main.childElementCount > 9) {
