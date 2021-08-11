@@ -312,8 +312,7 @@ function apiFactory(name) {
                 //odd two -> inside twoOdd
                 const oddTwo = document.createElement("div");
                 oddTwo.setAttribute("class", "odd-mid left");
-                oddTwo.setAttribute("c
-                                    ontenteditable", "true");
+                oddTwo.setAttribute("contenteditable", "true");
                 oddTwo.innerText = guestOdd;
                 twoOdd.appendChild(oddTwo);
                 //Game date -> inside gameInfo
